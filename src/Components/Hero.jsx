@@ -22,8 +22,8 @@ const Hero = () => {
 
   const handleClick = () => {
     const link = document.createElement("a");
-    link.href = "/Faseeh_Masood_Resume.pdf";
-    link.download = "Faseeh_Masood_Resume.pdf";
+    link.href = "/Faseeh_M_Resume.pdf";
+    link.download = "Faseeh_M_Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
